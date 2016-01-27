@@ -7,13 +7,6 @@
 #header .subtitle {
   font-family: 'Roboto Slab', serif; }
 
-#header .email {
-  float: right;
-  display: inline; }
-
-#header .role {
-  display: inline; }
-
 section {
   font-family: 'Roboto Mono', monospace;
   font-size: 0.8em; }
