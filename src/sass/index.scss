@@ -1,0 +1,22 @@
+@import "header";
+@import "section";
+
+body {
+  padding: 40px;
+}
+
+.table {
+  display: table;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  padding-right: 30px;
+  &:last-child {
+    padding-right: 0px;
+  }
+}
