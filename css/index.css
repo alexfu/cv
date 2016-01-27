@@ -1,0 +1,39 @@
+#header .title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 80px;
+  margin: 0; }
+
+#header .subtitle {
+  font-family: 'Roboto Slab', serif; }
+
+#header .email {
+  float: right;
+  display: inline; }
+
+#header .role {
+  display: inline; }
+
+section {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.8em; }
+  section h2 {
+    font-size: 2em;
+    font-family: 'Roboto Condensed', sans-serif; }
+  section .table-cell .name {
+    font-weight: 500; }
+
+body {
+  padding: 40px; }
+
+.table {
+  display: table; }
+
+.table-row {
+  display: table-row; }
+
+.table-cell {
+  display: table-cell;
+  padding-right: 30px; }
+  .table-cell:last-child {
+    padding-right: 0px; }
