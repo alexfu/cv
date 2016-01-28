@@ -1,12 +1,31 @@
 section {
   font-family: 'Roboto Mono', monospace;
   font-size: 0.8em;
+
   h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
     font-size: 2em;
     font-family: 'Roboto Condensed', sans-serif;
   }
 
+  .table {
+    display: table;
+  }
+
+  .table-row {
+    display: table-row;
+  }
+
   .table-cell {
+    display: table-cell;
+    padding-right: 30px;
+    &:first-child {
+      min-width: 77px;
+    }
+    &:last-child {
+      padding-right: 0px;
+    }
     .name {
       font-weight: 500;
     }
