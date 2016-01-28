@@ -1,8 +1,14 @@
+@import "variables";
 @import "header";
 @import "section";
 
 body {
+  min-width: 260px;
   padding: 40px;
+}
+
+ul {
+  padding-left: 30px;
 }
 
 .table {
@@ -16,7 +22,16 @@ body {
 .table-cell {
   display: table-cell;
   padding-right: 30px;
+  &:first-child {
+    min-width: 77px;
+  }
   &:last-child {
     padding-right: 0px;
+  }
+}
+
+@media(max-width: $mobile) {
+  body {
+    padding: 0 10px;
   }
 }
