@@ -10,8 +10,8 @@ module.exports = {
     {
       name: "Everseat",
       role: "Android/iOS Developer",
-      start_date: moment().month("February").year("2015").format("MMM YYYY"),
-      end_date: "Current",
+      start_date: moment().month("February").year("2015"),
+      end_date: null,
       responsibilities: [
         "Rebuilt Android app with MVP architecture",
         "Maintain both iOS and Android apps"
@@ -20,8 +20,8 @@ module.exports = {
     {
       name: "Alexander & Tom",
       role: "Developer",
-      start_date: moment().month("May").year("2013").format("MMM YYYY"),
-      end_date: moment().month("January").year("2015").format("MMM YYYY"),
+      start_date: moment().month("May").year("2013"),
+      end_date: moment().month("January").year("2015"),
       responsibilities: [
         "Built and maintained various Android applications",
         "Built and maintained keycam.com",
@@ -32,8 +32,8 @@ module.exports = {
     {
       name: "General Dynamics IT",
       role: "Quality Assurance",
-      start_date: moment().month("July").year("2012").format("MMM YYYY"),
-      end_date: moment().month("May").year("2013").format("MMM YYYY"),
+      start_date: moment().month("July").year("2012"),
+      end_date: moment().month("May").year("2013"),
       responsibilities: [
         "Developed and maintained automated test scripts for multiple projects"
       ]
@@ -41,8 +41,8 @@ module.exports = {
     {
       name: "Towson University",
       role: "Student Computing Services",
-      start_date: moment().month("August").year("2011").format("MMM YYYY"),
-      end_date: moment().month("June").year("2012").format("MMM YYYY"),
+      start_date: moment().month("August").year("2011"),
+      end_date: moment().month("June").year("2012"),
       responsibilities: [
         "Assisted students with administrative issues relating to their computers and accounts"
       ]
@@ -50,8 +50,8 @@ module.exports = {
     {
       name: "NIST",
       role: "Tech Intern",
-      start_date: moment().month("June").year("2009").format("MMM YYYY"),
-      end_date: moment().month("January").year("2011").format("MMM YYYY"),
+      start_date: moment().month("June").year("2009"),
+      end_date: moment().month("January").year("2011"),
       responsibilities: [
         "Worked with a small team to manage and administrate computers/accounts for the Manufacturing Engineering Laboratory Group"
       ]
@@ -60,14 +60,14 @@ module.exports = {
   universities: [
     {
       name: "Towson University",
-      start_date: moment().month("August").year("2008").format("MMM YYYY"),
-      end_date: moment().month("May").year("2012").format("MMM YYYY"),
+      start_date: moment().month("August").year("2008"),
+      end_date: moment().month("May").year("2012"),
       degree: "Bachelors in Computer Science"
     },
     {
       name: "Montgomery College",
-      start_date: moment().month("August").year("2006").format("MMM YYYY"),
-      end_date: moment().month("May").year("2008").format("MMM YYYY"),
+      start_date: moment().month("August").year("2006"),
+      end_date: moment().month("May").year("2008"),
     }
   ],
   languages: [

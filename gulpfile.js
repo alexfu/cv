@@ -5,6 +5,7 @@ var webserver = require("gulp-webserver");
 var ghPages = require("gulp-gh-pages");
 
 var del = require("del");
+var moment = require("moment");
 var cv = require("./cv");
 
 gulp.task("clean", function() {
@@ -12,8 +13,17 @@ gulp.task("clean", function() {
 });
 
 gulp.task("ejs", ["clean"], function() {
+  var globals = {
+    data: cv,
+    formatDate: function(date) {
+      if (date) {
+        return moment(date).format("MMM YYYY");
+      }
+      return "Current";
+    }
+  };
   return gulp.src("src/index.ejs")
-  	.pipe(ejs({data: cv}, {ext: ".html"}))
+    .pipe(ejs(globals, {ext: ".html"}))
   	.pipe(gulp.dest("dist"));
 });
 
