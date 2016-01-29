@@ -18,7 +18,8 @@ header, section {
 
 @media(max-width: $mobile) {
   body {
-    padding: 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
