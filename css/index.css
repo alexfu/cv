@@ -55,7 +55,8 @@ header, section {
 
 @media (max-width: 460px) {
   body {
-    padding: 0 10px; } }
+    padding-left: 10px;
+    padding-right: 10px; } }
 
 @media print {
   body {
