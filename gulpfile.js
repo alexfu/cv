@@ -7,6 +7,7 @@ var ghPages = require("gulp-gh-pages");
 var del = require("del");
 var moment = require("moment");
 var cv = require("./cv");
+var config = require("./config");
 
 gulp.task("clean", function() {
   return del(["dist"]);
@@ -22,19 +23,19 @@ gulp.task("ejs", ["clean"], function() {
       return "Current";
     }
   };
-  return gulp.src("src/index.ejs")
+  return gulp.src("src/themes/" + config.theme + "/index.ejs")
     .pipe(ejs(globals, {ext: ".html"}))
   	.pipe(gulp.dest("dist"));
 });
 
 gulp.task("copy", ["clean"], function() {
-  var files = ["src/**/*.html", "src/**/*.js"];
+  var files = ["src/themes/" + config.theme + "/*.html", "src/themes/" + config.theme + "/*.js"];
   return gulp.src(files)
     .pipe(gulp.dest("dist"));
 });
 
 gulp.task("sass", ["clean"], function() {
-  return gulp.src("src/sass/**/*.scss")
+  return gulp.src("src/themes/" + config.theme + "/sass/**/*.scss")
     .pipe(sass())
     .pipe(gulp.dest("dist/css"));
 });
