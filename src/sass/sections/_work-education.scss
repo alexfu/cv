@@ -1,0 +1,14 @@
+#education, #work {
+  .table-cell {
+    padding-right: 30px;
+    &:first-child {
+      min-width: 77px;
+    }
+    &:last-child {
+      padding-right: 0px;
+    }
+    .name {
+      font-weight: 500;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 <header id="header"><%- include("header") %></header>
-<section id="employment"><%- include("employment") %></section>
-<section id="education"><%- include("education") %></section>
-<section id="languages"><%- include("languages") %></section>
-<section id="skills"><%- include("skills") %></section>
-<section id="other"><%- include("other") %></section>
+<% data.sections.forEach(function(section) { %>
+  <section>
+    <h2><%= section.title %> </h2>
+    <%- include(section.template, {data: section.data}) %>
+  </section>
+<%})%>

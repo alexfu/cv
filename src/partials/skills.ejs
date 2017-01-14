@@ -1,2 +1,12 @@
-<h2>Additional Skills</h2>
-<%= skills.join(", "); %>
+<div id="skills" class="table">
+  <% data.forEach(function(skills) { %>
+    <div class="table-cell">
+      <%= skills.title %>
+      <ul>
+        <% skills.skills.forEach(function (skill) { %>
+          <li><%= skill %></li>
+        <% }) %>
+      </ul>
+    </div>
+  <% }) %>
+</div>

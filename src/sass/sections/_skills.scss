@@ -1,0 +1,15 @@
+#skills {
+  &.table {
+    width: 75%;
+  }
+
+  .table-cell {
+    margin: 0 auto;
+  }
+
+  @media(max-width: $mobile) {
+    &.table {
+      width: 100%;
+    }
+  }
+}

@@ -19,15 +19,16 @@ section {
 
   .table-cell {
     display: table-cell;
-    padding-right: 30px;
-    &:first-child {
-      min-width: 77px;
-    }
-    &:last-child {
-      padding-right: 0px;
-    }
-    .name {
-      font-weight: 500;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  td {
+    ul {
+      padding: 0;
+      margin: 0;
     }
   }
 }
