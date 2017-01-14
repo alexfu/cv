@@ -8,6 +8,11 @@ module.exports = {
   },
   sections: [
     {
+      title: "About",
+      template: "about",
+      data: "I am an Android Developer and my goal is to pursue positions that allow me to build/create the best mobile experiences for users."
+    },
+    {
       title: "Employment",
       template: "employment",
       data: [
