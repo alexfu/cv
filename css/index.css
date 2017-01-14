@@ -33,14 +33,12 @@ section {
   section .table-row {
     display: table-row; }
   section .table-cell {
-    display: table-cell;
-    padding-right: 30px; }
-    section .table-cell:first-child {
-      min-width: 77px; }
-    section .table-cell:last-child {
-      padding-right: 0px; }
-    section .table-cell .name {
-      font-weight: 500; }
+    display: table-cell; }
+  section table {
+    width: 100%; }
+  section td ul {
+    padding: 0;
+    margin: 0; }
 
 body {
   min-width: 260px;
@@ -52,6 +50,15 @@ ul {
 
 header, section {
   margin-bottom: 20px; }
+
+b {
+  font-weight: 500; }
+
+a:link {
+  color: #2196F3; }
+
+a:visited {
+  color: #2196F3; }
 
 @media (max-width: 460px) {
   body {
@@ -68,3 +75,17 @@ header, section {
   a {
     color: #000;
     text-decoration: none; } }
+
+#education .table-cell, #work .table-cell {
+  padding-right: 30px; }
+  #education .table-cell:first-child, #work .table-cell:first-child {
+    min-width: 77px; }
+  #education .table-cell:last-child, #work .table-cell:last-child {
+    padding-right: 0px; }
+  #education .table-cell .name, #work .table-cell .name {
+    font-weight: 500; }
+
+#skills .table-cell {
+  padding-right: 50px; }
+  #skills .table-cell:last-child {
+    padding-right: 0; }
