@@ -20,6 +20,14 @@ b {
   font-weight: 500;
 }
 
+a:link {
+  color: #2196F3;
+}
+
+a:visited {
+  color: #2196F3;
+}
+
 @media(max-width: $mobile) {
   body {
     padding-left: 10px;
