@@ -16,6 +16,10 @@ header, section {
   margin-bottom: 20px;
 }
 
+b {
+  font-weight: 500;
+}
+
 @media(max-width: $mobile) {
   body {
     padding-left: 10px;
