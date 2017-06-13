@@ -23,7 +23,9 @@ module.exports = {
           end_date: null,
           responsibilities: [
             "Rebuilt Android app with MVP architecture",
-            "Maintain both iOS and Android apps"
+            "Maintain both iOS and Android apps",
+            "Develop and maintain internal analytics dashboard using web technologies",
+            "Migrated iOS code base from Objective-C to Swift"
           ]
         },
         {
