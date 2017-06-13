@@ -58,4 +58,4 @@ gulp.task("deploy", function() {
     .pipe(ghPages());
 });
 
-gulp.task("default", ["build", "watch"]);
+gulp.task("default", ["build", "server", "watch"]);
