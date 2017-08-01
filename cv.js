@@ -2,7 +2,7 @@ var moment = require("moment");
 
 module.exports = {
   name: "Alex Fu",
-  role: "Software Developer",
+  role: "Mobile Developer",
   contact: {
     email: "alex.fu914 [at] gmail.com"
   },
@@ -10,7 +10,7 @@ module.exports = {
     {
       title: "About",
       template: "about",
-      data: "I am an Android Developer and my goal is to pursue positions that allow me to build/create the best mobile experiences for users."
+      data: "I'm an experienced Android Developer looking for positions that allow me to build the best mobile experiences for users."
     },
     {
       title: "Employment",
@@ -24,8 +24,8 @@ module.exports = {
           responsibilities: [
             "Rebuilt Android app with MVP architecture",
             "Maintain both iOS and Android apps",
-            "Develop and maintain internal analytics dashboard using web technologies",
-            "Migrated iOS code base from Objective-C to Swift"
+            "Migrated iOS code base from Objective-C to Swift",
+            "Develop and maintain internal analytics dashboard using web technologies"
           ]
         },
         {
@@ -118,8 +118,7 @@ module.exports = {
       title: "Other",
       template: "other",
       data: {
-        github: "https://github.com/alexfu",
-        googleplay: "https://play.google.com/store/apps/developer?id=Alex+Fu"
+        github: "https://github.com/alexfu"
       }
     }
   ]

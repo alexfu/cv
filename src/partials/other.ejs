@@ -1,4 +1,6 @@
 <ul id="other">
-  <li>Google Play: <a href="<%= data.googleplay %>" target="_blank"><%= data.googleplay %></a></li>
+  <% if (data.googleplay) { %>
+    <li>Google Play: <a href="<%= data.googleplay %>" target="_blank"><%= data.googleplay %></a></li>
+  <% } %>
   <li>GitHub: <a href="<%= data.github %>" target="_blank"><%= data.github %></a></li>
 </ul>
