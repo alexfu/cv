@@ -96,7 +96,7 @@ module.exports = {
         },
         {
           title: "Web",
-          skills: ["Express", "koa", "Angular 1"]
+          skills: ["NodeJS", "Gulp", "ExpressJS", "Rails", "Angular 1", "React", "etc..."]
         },
         {
           title: "DevOps",
