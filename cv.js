@@ -20,7 +20,7 @@ module.exports = {
           name: "Everseat",
           role: "Android/iOS Developer",
           start_date: moment().month("February").year("2015"),
-          end_date: null,
+          end_date: moment().month("October").year("2017"),
           responsibilities: [
             "Rebuilt Android app with MVP architecture",
             "Maintain both iOS and Android apps",
