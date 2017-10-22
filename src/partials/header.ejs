@@ -1,6 +1,11 @@
 <h1 class="title"><%= name %></h1>
 <div class="subtitle">
   <span class="role"><%= role %></span>
-  <span class="separator">|</span>
-  <span class="contact"><%= contact.email %></span>
+  <span class="contact">
+    <% if (contact.email) { %>
+      <span class="separator">|</span> Email: <%= contact.email %>
+    <% } %>
+    <% if (contact.phone) { %>
+      <span class="separator">|</span> Phone: <%= contact.phone %>
+    <% } %></span>
 </div>

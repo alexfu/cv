@@ -1,15 +1,13 @@
-<div id="work" class="table">
+<table id="work">
   <% data.forEach(function(employer) { %>
-    <div class="table-row">
-      <!-- Date -->
-      <div class="table-cell">
-        <%= formatDate(employer.start_date) %> -
-        <%= formatDate(employer.end_date) %>
-      </div>
-
-      <!-- Name -->
-      <div class="table-cell">
-        <span class="name"><%= employer.name %> (<%= employer.role %>)</span>
+    <tr>
+      <td class="date">
+        <!-- Date -->
+        <%= formatDate(employer.start_date) %> - <%= formatDate(employer.end_date) %>
+      </td>
+      <td class="summary">
+        <!-- Summary -->
+        <b><%= employer.name %> (<%= employer.role %>)</b>
         <ul>
           <% employer.responsibilities.forEach(function(responsibility) { %>
             <li>
@@ -17,7 +15,7 @@
             </li>
           <% }) %>
         </ul>
-      </div>
-    </div>
+      </td>
+    </tr>
   <% }) %>
-</div>
+</table>

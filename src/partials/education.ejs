@@ -1,15 +1,13 @@
-<div id="education" class="table">
+<table id="education">
   <% data.forEach(function(university) { %>
-    <div class="table-row">
-      <!-- Date -->
-      <div class="table-cell">
-        <%= formatDate(university.start_date) %> -
-        <%= formatDate(university.end_date) %>
-      </div>
-
-      <!-- Name -->
-      <div class="table-cell">
-        <span class="name"><%= university.name %></span>
+    <tr>
+      <td class="date">
+        <!-- Date -->
+        <%= formatDate(university.start_date) %> - <%= formatDate(university.end_date) %>
+      </td>
+      <td class="summary">
+        <!-- Summary -->
+        <b><%= university.name %></b>
         <% if (university.degree) { %>
           <ul>
             <li>
@@ -17,7 +15,7 @@
             </li>
           </ul>
         <% } %>
-      </div>
-    </div>
+      </td>
+    </tr>
   <% }) %>
-</div>
+</table>

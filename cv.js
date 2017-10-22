@@ -4,16 +4,12 @@ module.exports = {
   name: "Alex Fu",
   role: "Mobile Developer",
   contact: {
-    email: "alex.fu914 [at] gmail.com"
+    phone: "301-385-4815",
+    email: "alex.fu914@gmail.com"
   },
   sections: [
     {
-      title: "About",
-      template: "about",
-      data: "I'm an experienced Android Developer looking for positions that allow me to build the best mobile experiences for users."
-    },
-    {
-      title: "Employment",
+      title: "Experience",
       template: "employment",
       data: [
         {
@@ -77,7 +73,7 @@ module.exports = {
           name: "Towson University",
           start_date: moment().month("August").year("2008"),
           end_date: moment().month("May").year("2012"),
-          degree: "Bachelors in Computer Science"
+          degree: "B.S. Computer Science"
         },
         {
           name: "Montgomery College",
@@ -87,20 +83,22 @@ module.exports = {
       ]
     },
     {
-      title: "Skills",
-      template: "skills",
+      title: "Projects",
+      template: "projects",
       data: [
         {
-          title: "Mobile",
-          skills: ["Android", "iOS"]
+          name: "Reminder app (Android)",
+          summary: [
+            "Full stack project with Rails backend",
+            "100% Kotlin"
+          ]
         },
         {
-          title: "Web",
-          skills: ["NodeJS", "Gulp", "ExpressJS", "Rails", "Angular 1", "React", "etc..."]
-        },
-        {
-          title: "DevOps",
-          skills: ["Docker"]
+          name: "Automatic app versioning (Android)",
+          summary: [
+            "Gradle plugin for Android Studio",
+            "Automatically versions app based on gradle commands"
+          ]
         }
       ]
     },

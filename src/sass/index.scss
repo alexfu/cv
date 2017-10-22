@@ -3,17 +3,25 @@
 @import "section";
 
 body {
-  min-width: 260px;
   margin: 0;
-  padding: 40px;
+  padding: 10px;
+
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 ul {
   padding-left: 30px;
 }
 
-header, section {
+header {
   margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 25px;
 }
 
 b {
@@ -36,5 +44,4 @@ a:visited {
 }
 
 @import "print";
-@import "sections/work-education";
-@import "sections/skills";
+@import "sections/projects";
