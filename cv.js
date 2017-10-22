@@ -97,7 +97,8 @@ module.exports = {
           name: "Automatic app versioning (Android)",
           summary: [
             "Gradle plugin for Android Studio",
-            "Automatically versions app based on gradle commands"
+            "Automatically versions app based on gradle commands",
+            "Based on semantic versioning"
           ]
         }
       ]
