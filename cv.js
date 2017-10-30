@@ -102,6 +102,12 @@ module.exports = {
             "Gradle plugin for automatic app versioning",
             "Based on semantic versioning"
           ]
+        },
+        {
+          name: "Buglife",
+          summary: [
+            "Open source Android SDK for bug reporting"
+          ]
         }
       ]
     },
