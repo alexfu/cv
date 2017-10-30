@@ -64,6 +64,8 @@ body {
 
 ul {
   padding-left: 30px; }
+  ul li {
+    padding-bottom: 5px; }
 
 header {
   margin-bottom: 20px; }
