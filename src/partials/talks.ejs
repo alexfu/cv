@@ -2,7 +2,9 @@
 <% data.forEach(function(talk) { %>
   <li>
     <%= talk.title %>
-    <ul><li><a href="<%= talk.link %>"><%= talk.link %></a></li></ul>
+    <% if (talk.link) { %>
+      <ul><li><a href="<%= talk.link %>"><%= talk.link %></a></li></ul>
+    <% } %>
   </li>
 <% }) %>
 </ul>

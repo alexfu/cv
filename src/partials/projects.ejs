@@ -1,10 +1,14 @@
 <table id="projects">
+  <ul>
   <% data.forEach(function(project) { %>
-    <b><%= project.name %></b>
-    <ul>
-      <% project.summary.forEach(function (item) { %>
-        <li><%= item %></li>
-      <% }) %>
-    </ul>
+    <li>
+      <%= project.name %>
+      <ul>
+        <% project.summary.forEach(function (item) { %>
+          <li><%= item %></li>
+        <% }) %>
+      </ul>
+    </li>
   <% }) %>
+  </ul>
 </table>

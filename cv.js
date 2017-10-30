@@ -31,7 +31,7 @@ module.exports = {
           end_date: moment().month("January").year("2015"),
           responsibilities: [
             "Built and maintained various Android applications",
-            "Built and maintained keycam.com",
+            "Built and maintained web apps",
             "Built an Android app that interfaces with the AR Drone API and FFMpeg for video processing",
             "Gained experience in various web technologies such as SCSS, Backbone, Marionette, and Meteor"
           ]
@@ -42,7 +42,8 @@ module.exports = {
           start_date: moment().month("July").year("2012"),
           end_date: moment().month("May").year("2013"),
           responsibilities: [
-            "Developed and maintained automated test scripts for multiple projects"
+            "Developed and maintained automated test scripts for multiple projects",
+            "Developed testing reports for stakeholders"
           ]
         },
         {
@@ -60,7 +61,8 @@ module.exports = {
           start_date: moment().month("June").year("2009"),
           end_date: moment().month("January").year("2011"),
           responsibilities: [
-            "Worked with a small team to manage and administrate computers/accounts for the Manufacturing Engineering Laboratory Group"
+            "Worked with a small team to manage and administrate computers/accounts for the Manufacturing Engineering Laboratory Group",
+            "Prepare laptops and desktops that adhere to specific security standards"
           ]
         }
       ]
@@ -87,29 +89,32 @@ module.exports = {
       template: "projects",
       data: [
         {
-          name: "Reminder app (Android)",
+          name: "Humemo",
           summary: [
+            "Android app for setting reminders for yourself and friends",
             "Full stack project with Rails backend",
             "100% Kotlin"
           ]
         },
         {
-          name: "Automatic app versioning (Android)",
+          name: "AndroidAutoVersion",
           summary: [
-            "Gradle plugin for Android Studio",
-            "Automatically versions app based on gradle commands",
+            "Gradle plugin for automatic app versioning",
             "Based on semantic versioning"
           ]
         }
       ]
     },
     {
-      title: "Talks",
+      title: "Talks/Presentations",
       template: "talks",
       data: [
         {
-          title: "Custom views and how to make them",
+          title: "Gave talk on custom views in Android @ Google Developer Group meetup",
           link: "http://slides.com/alexfu/custom-views"
+        },
+        {
+          title: "Ran a workshop/codelab session @ DevFestMD on Kotlin"
         }
       ]
     },
