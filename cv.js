@@ -13,6 +13,26 @@ module.exports = {
       template: "employment",
       data: [
         {
+          name: "Leafly",
+          role: "Android Engineer",
+          start_date: moment().month("February").year("2018"),
+          end_date: null,
+          responsibilities: [
+            "Developed new e-commerce features into existing app",
+            "Maintain existing app by fixing critical bugs"
+          ]
+        },
+        {
+          name: "Omnitracs",
+          role: "Android Engineer",
+          start_date: moment().month("December").year("2017"),
+          end_date: moment().month("January").year("2018"),
+          responsibilities: [
+            "Work with existing team to implement bug fixes",
+            "Automate server environment using Vagrant"
+          ]
+        },
+        {
           name: "Everseat",
           role: "Android/iOS Developer",
           start_date: moment().month("February").year("2015"),
