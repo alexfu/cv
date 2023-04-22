@@ -14,9 +14,23 @@ module.exports = {
       data: [
         {
           name: "Leafly",
-          role: "Android Engineer",
-          start_date: moment().month("February").year("2018"),
+          role: "Engineering Manager",
+          start_date: moment().month("April").year("2023"),
           end_date: null,
+          responsibilities: []
+        },
+        {
+          name: "Leafly",
+          role: "Senior Software Engineer",
+          start_date: moment().month("October").year("2021"),
+          end_date: moment().month("April").year("2023"),
+          responsibilities: []
+        },
+        {
+          name: "Leafly",
+          role: "Software Engineer",
+          start_date: moment().month("February").year("2018"),
+          end_date: moment().month("October").year("2021"),
           responsibilities: [
             "Developed new e-commerce features into existing app",
             "Maintain existing app by fixing critical bugs"
